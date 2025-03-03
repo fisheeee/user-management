@@ -311,6 +311,10 @@ function Dashboard() {
       // style={{ backgroundColor: "#F7F7F7" }}
     >
       <div className="relative">
+        <select name="drop" id="">
+          <option value="1">TEST</option>
+          <option value="2">TEST2</option>
+        </select>
         <div
           className="p-6 rounded-lg shadow-md w-96 text-center"
           style={{ backgroundColor: "#FFFFFF" }}

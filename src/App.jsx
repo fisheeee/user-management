@@ -7,8 +7,9 @@ import ForgotPassword from "./pages/ForgotPassword.jsx";
 import ResetPasswordForm from "./pages/ResetPasswordForm.jsx";
 import Permissions from "./pages/Permissions.jsx";
 import Navbar from "./component/AdminNavbar.jsx";
-import Footer from "./component/footer.jsx";
-
+import Footer from "./component/Footer.jsx";
+import AssignPermission from "./pages/AssignPermissions.jsx";
+import Test from "./pages/test.jsx";
 function App() {
   return (
     <Router>
@@ -26,6 +27,8 @@ function App() {
           <Route path="/reset-password" element={<ResetPasswordForm />} />
           <Route path="/permissions" element={<Permissions />} />
           <Route path="*" element={<Login />}></Route>
+          <Route path="/permissions/assign" element={<AssignPermission />}></Route>
+          <Route path="/test" element={<Test />}></Route>
         </Routes>
       </div>
       <Footer />

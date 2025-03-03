@@ -29,6 +29,11 @@ const Navbar = () => {
           >
             Logout
           </button>
+
+          <select name="" id="">
+            <option value="">test</option>
+            <option value="">test2</option>
+          </select>
         </div>
       </div>
     </nav>

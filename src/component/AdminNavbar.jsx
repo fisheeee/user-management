@@ -37,6 +37,7 @@ const Navbar = () => {
             Logout
           </button>
         </div>
+        
       </div>
     </nav>
   );
